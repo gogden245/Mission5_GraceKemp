@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mission5_GraceKemp", "Mission5_GraceKemp\Mission5_GraceKemp.csproj", "{9B9B7A33-5064-437C-AABA-DB0AF28BC9AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B9B7A33-5064-437C-AABA-DB0AF28BC9AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B9B7A33-5064-437C-AABA-DB0AF28BC9AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B9B7A33-5064-437C-AABA-DB0AF28BC9AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B9B7A33-5064-437C-AABA-DB0AF28BC9AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D5CCE58-3620-4677-B88F-089A8E1328A7}
+	EndGlobalSection
+EndGlobal

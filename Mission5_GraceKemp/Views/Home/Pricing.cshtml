@@ -1,0 +1,18 @@
+﻿@{
+    
+}
+<h1>@ViewData["Title"]</h1>
+
+<<div class="container">
+    <h1>Service Tutoring Calculator</h1>
+    <p>I'd love to share my hobby with you! Use the tool below to see how much tutoring would cost.</p>
+    <label for="hours">Number of Hours Needed:</label><br />
+    <input type="number" id="hours" min="1" step="1">
+    <br><br>
+    <label for="hourly-rate">Hourly Rate:</label><br />
+    <input type="text" id="hourly-rate" value="$50" readonly>
+    <br><br>
+    <button class="btn custom-button" id="calculate-btn">Calculate Total</button>
+    <br><br>
+    <a href="#Index" id="home-link">Back to Home</a>
+</div>

@@ -1,0 +1,111 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Rock Climbing</h1>
+    <!-- Short Blurb about my hobby -->
+    <p>I picked up rock climbing the summer 2020 because I was bored. 
+        My boyfriend (now husband) had just left on his mission and I found that I had a lot more free time on my hands. 
+        I started going to a nearby gym with my brothers, sister, new acquaintances... basically anyone that I could drag along with me. 
+        I soon discovered the joys of bouldering, where I didn't need to force unwilling participants to hold the rope as I climbed.
+        When I went back up to BYU, I found friends with gear and I climbed outside for the first time. I have been in love 
+        with rock climbing since. Now, I'm able to share this love with my husband (who, by the way, is afraid of heights, but he 
+        is the best and tries anything for me).</p>
+    <p>Scroll down to see some of my favorite experiences and places I've climbed at.</p>
+</div>
+
+<!-- Picture carousel of some climbing trips -->
+<div id="photoCarousel" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="~/img/rockcanyon6.jpeg" class="d-block w-100" alt="Climbing in Rock Canyon">
+        </div>
+        <div class="carousel-item">
+            <img src="~/img/phoenix.jpeg" class="d-block w-100" alt="Climbing at the Phoenix Rock Gym">
+        </div>
+        <div class="carousel-item">
+            <img src="~/img/gilbertalta.jpg" class="d-block w-100" alt="Climbing at Alta in Gilbert, AZ">
+        </div>
+        <div class="carousel-item">
+            <img src="~/img/escalante.jpeg" class="d-block w-100" alt="Slot Canyons near Escalante">
+        </div>
+        <div class="carousel-item">
+            <img src="~/img/rockcanyon3.jpeg" class="d-block w-100" alt="Climbing in Rock Canyon">
+        </div>
+        <div class="carousel-item">
+            <img src="~/img/rockcanyon7.jpeg" class="d-block w-100" alt="Climbing in Rock Canyon with friends">
+        </div>
+        <div class="carousel-item">
+            <img src="~/img/rockcanyon5.jpeg" class="d-block w-100" alt="Climbing in Rock Canyon">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#photoCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#photoCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!-- List of cards with places I've climbed at with the links to the website -->
+<div class="card-container" >
+    <div class="card" style="width: 18rem;">
+        <img src="~/img/phoenixlogo.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Phoenix Rock Gym | Tempe, AZ</h5>
+            <p class="card-text">This is where it all started for me- my first and favorite gym to climb at.</p>
+            <a href="https://phoenixrockgym.com/" class="btn btn-custom">View Website</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="~/img/altalogo.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">ALta Climbing & Fitness | Gilbert, AZ</h5>
+            <p class="card-text">A newer gym close to home with some of the tallest indoor walls I've seen.</p>
+            <a href="https://altaclimbing.com/gilbert/" class="btn btn-custom">View Website</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="~/img/rockcanyon.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Rock Canyon | Provo, UT</h5>
+            <p class="card-text">My first outdoor climb.</p>
+            <a href="https://www.mountainproject.com/area/105739292/rock-canyon" class="btn btn-custom">View Website</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="~/img/slotcanyon.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Big Water Slot Canyon | Big Water, UT</h5>
+            <p class="card-text">A casual but beautiful climb in the winter.</p>
+            <a href="https://triptrack.org/1380" class="btn btn-custom">View Website</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="~/img/momentum_logo.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Momentum | Lehi, UT</h5>
+            <p class="card-text">My favorite place to boulder.</p>
+            <a href="https://momentumclimbing.com/lehi/" class="btn btn-custom">View Website</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="~/img/quarry.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">The Quarry | Provo, UT</h5>
+            <p class="card-text">Such a fun indoor gym and always  such friendly staff.</p>
+            <a href="https://quarryclimbing.com/" class="btn btn-custom">View Website</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="~/img/uvu.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">UVU, The Project Climbing Wall | Orem, UT</h5>
+            <p class="card-text">Small but inexpensive for students.</p>
+            <a href="https://www.uvu.edu/oac/climbing/index.html" class="btn btn-custom">View Website</a>
+        </div>
+    </div>
+</div>
